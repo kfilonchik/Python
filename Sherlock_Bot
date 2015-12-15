@@ -1,0 +1,4 @@
+import telebot
+
+bot = telebot.Bot(token = '121509342:AAFXx3W76vHz7Y3RTjIMpd0BiCyBD3l37J0')
+
