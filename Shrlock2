@@ -61,8 +61,8 @@ while True:
         if chat_id not in max_ids or message_id > max_ids[chat_id]:
             max_ids[chat_id] = message_id
             try:
-                bot.sendMessage(chat_id=chat_id, text="Hey, man! We are going to play a small game. Choose here right answer for the word:" + row[1])
-                custom_keyboard =[row[2],row[3],row[4]]
+                bot.sendMessage(chat_id=chat_id, text="Hey, man! We are going to play a small game. Choose here right answer for the word:" + row1)
+                custom_keyboard =[row2,row3,row4]
                 reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
                 bot.sendMessage(chat_id=chat_id, text="Stay here, I'll be back.", reply_markup=reply_markup)
             except:
