@@ -42,10 +42,10 @@ answers = ['выдающаяся хрящевая часть гортани', '�
 number1 = random.randint(1,37)
 number2 = random.randint(1,20)
 number3 = random.randint(21,40)
-row1 = random.choice(dictionary[number1])
-row2 = random.choice(rightMeaning[number1])
-row3 = random.choice(answers[number2])
-row4 = random.choice(answers[number3])
+row1 = dictionary[number1]
+row2 = rightMeaning[number1]
+row3 = answers[number2]
+row4 = answers[number3]
 
 
 max_ids = {}
